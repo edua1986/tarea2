@@ -1,5 +1,8 @@
+* {
+    margin: 0;
+}
 
-
+/* inicio nav */
 header {
     display: flex;
     align-items: center;
@@ -7,10 +10,9 @@ header {
 }
 
 
-.nvidia {
+img {
     width: 450px;
-    height: 250px
-}
+} 
 
 
 nav ul {
@@ -29,3 +31,16 @@ nav ul li a{
     text-decoration: none;
 }
 
+/* fin nav */
+
+@media(min-width: 700px){
+    header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    }
+
+    img {
+        width: 300px;
+    }     
+}
