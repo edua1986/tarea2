@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,24 +28,142 @@
 
     <!-- inicio productos -->
     <div class="productos">
-
-
-        <div class="producto1">
-            <img src="zotag.jpg" alt="rtx 4060 zotag">
-            <h4>MSI RTX 4060 8GB GDDR6 Twin Edge</h4>
-            <p>$400.000</p>
+        <div class="producto_detalle">
+            <img src="zotag.jpg" class="img_producto" alt="rtx 4060 zotag">
+            <h4>Zotag RTX 4060 8GB GDDR6 Twin Edge</h4>
+            <p>stock: 10</p>
+            <p class="pagonormal">$400.000</p>
+            <p>Efectivo, transferencia</p>
+            <p class="pagootro">$423.000</p>
+            <p>Otro medio de pago</p>
+            <label>Cantidad</label> <br>
+            <input type="number" name="" min="1" value="1"> <br>
             <button>Compra Ahora</button>
-
         </div>
 
+        <div class="producto_detalle">
+            <img src="zotag.jpg" class="img_producto" alt="rtx 4060 zotag">
+            <h4>MSI RTX 4060 TI 8GB GDDR6 Twin Edge</h4>
+            <p>stock: 10</p>
+            <p class="pagonormal">$400.000</p>
+            <p>Efectivo, transferencia</p>
+            <p class="pagootro">$423.000</p>
+            <p>Otro medio de pago</p>
+            <label>Cantidad</label> <br>
+            <input type="number" name="" min="1" value="1"> <br>
+            <button>Compra Ahora</button>
+        </div>
 
-    </div>
+        <div class="producto_detalle">
+            <img src="zotag.jpg" class="img_producto" alt="rtx 4060 zotag">
+            <h4>MSI RTX 4070 8GB GDDR6 Twin Edge</h4>
+            <p>stock: 10</p>
+            <p class="pagonormal">$400.000</p>
+            <p>Efectivo, transferencia</p>
+            <p class="pagootro">$423.000</p>
+            <p>Otro medio de pago</p>
+            <label>Cantidad</label> <br>
+            <input type="number" name="" min="1" value="1"> <br>
+            <button>Compra Ahora</button>
+        </div>
 
+        <div class="producto_detalle">
+            <img src="zotag.jpg" class="img_producto" alt="rtx 4060 zotag">
+            <h4>MSI RTX 4070 TI 8GB GDDR6 Twin Edge</h4>
+            <p>stock: 10</p>
+            <p class="pagonormal">$400.000</p>
+            <p>Efectivo, transferencia</p>
+            <p class="pagootro">$423.000</p>
+            <p>Otro medio de pago</p>
+            <label>Cantidad</label> <br>
+            <input type="number" name="" min="1" value="1"> <br>
+            <button>Compra Ahora</button>
+        </div>
+
+        <div class="producto_detalle">
+            <img src="zotag.jpg" class="img_producto" alt="rtx 4060 zotag">
+            <h4>MSI RTX 4080 8GB GDDR6 Twin Edge</h4>
+            <p>stock: 10</p>
+            <p class="pagonormal">$400.000</p>
+            <p>Efectivo, transferencia</p>
+            <p class="pagootro">$423.000</p>
+            <p>Otro medio de pago</p>
+            <label>Cantidad</label> <br>
+            <input type="number" name="" min="1" value="1"> <br>
+            <button>Compra Ahora</button>
+        </div>
+
+        <div class="producto_detalle">
+            <img src="zotag.jpg" class="img_producto" alt="rtx 4060 zotag">
+            <h4>MSI RTX 4090 8GB GDDR6 Twin Edge</h4>
+            <p>stock: 10</p>
+            <p class="pagonormal">$400.000</p>
+            <p>Efectivo, transferencia</p>
+            <p class="pagootro">$423.000</p>
+            <p>Otro medio de pago</p>
+            <label>Cantidad</label> <br>
+            <input type="number" name="" min="1" value="1"> <br>
+            <button>Compra Ahora</button>
+        </div>
+    </div> <!-- fin div productos -->
     <!-- fin productos -->
 
 
 
+
+
+
+    <!-- inicio formulario -->
+
+    <form>
+        <h3>Contacto</h3>
+        <label>Nombre</label><br>
+        <input type="text"name="nombre" placeholder="eduardo" > <br>
+        <label>Email</label> <br>
+        <input type="email" pattern=".+@ejemplo.com" placeholder="nombre@ejemplo.com" > <br>
+        
+
+        <label for="tipo">Tipo contacto:</label> <br>
+        <input type="radio" id="html" name="tipo_contacto" value="venta">
+        <label for="ventas">Ventas</label><br>
+        <input type="radio" id="css" name="tipo_contacto" value="css">
+        <label for="soporte">Soporte</label><br>
+        <input type="radio" id="otro" name="tipo_contacto" value="otro">
+        <label for="otro">Otro</label> <br>
+        
+
+
+        <label for="opcion">Eliga:</label> <br>
+        <select name="opcion" class="opcion">
+            <option value="">rtx 4060</option>
+            <option value="">rtx 4060 TI</option>
+            <option value="">rtx 4070</option>
+            <option value="">rtx 4070 TI</option>
+            <option value="">rtx 4080</option>
+            <option value="">rtx 4090</option>
+        </select> <br>
+
+
+
+        <label for="texto">Comentario</label> <br>
+        <textarea placeholder="Ingrese su comentario"></textarea> <br>
+
+        <input type="button" class="boton" value="Enviar" />
+       
+      </form>     
+
+    <!-- fin formulario -->
+
+
+
+
     <!-- inicio footer -->
+    <footer>
+        <div class="redes_sociales">      
+            <img src="Incluyeme_logo.png" alt="incluyeme.com">
+        </div>
+        <p>Copyright @ Chile 2024  Eduardo</p>        
+    </footer>
     <!-- fin footer -->
 </body>
 </html>
