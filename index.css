@@ -50,22 +50,58 @@ nav ul li a{
     align-items: center;
     flex-direction: column;
     /* border: solid; */
-    box-shadow: 5px 5px 5px 5px blue;
+    box-shadow: 1px 1px 1px 1px blue;
     margin: 20px;
+    /* height: 90%; */
+    border-radius: 8px;
 
 
 }
 
-.img_producto {
-    width: 250px;
+.pago_normal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.pago_otro {
+    color: #3d3ef8;
+}
+
+.stock {
+    font-size: 13px;
+}
+
+.divisor_precio {
+    border-top: 2px solid blue;    
+    border-right-style: solid;
+    width: 200px;
+    margin-top: 8px
+    
+}
+
+.img_producto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 80%;
+}
+
+h4 {
+    text-align: center;
+    width: 227px;
+    height: 36px;
+}
+
+.cantidad {
+    width: 40px;
 }
 
 button {
     margin-bottom: 15px;
     margin-top: 15px;
-    padding: 15px; 
-    
+    padding: 15px;     
 }
 
 /* fin productos/*
@@ -93,8 +129,8 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .radio {
@@ -161,11 +197,17 @@ footer {
         width: 80%;        
     }
 
+    nav ul li {
+        margin-right: 50px;
+    }
+
 }
 
 @media(min-width: 999px){
-    .separador {
-    border-top: 8px solid blue;
-    width: 90%;
-    }
-}
+    nav ul li {
+        margin-right: 100px;
+    }    
+} 
+
+
+
