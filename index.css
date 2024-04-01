@@ -9,11 +9,9 @@ header {
     flex-direction: column;
 }
 
-
 img {
     width: 450px;
 } 
-
 
 nav ul {
     list-style: none;
@@ -30,6 +28,8 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
+    color: blue;
+    font-size: 25px;
 }
 
 /* fin nav */
@@ -54,8 +54,6 @@ nav ul li a{
     margin: 20px;
     /* height: 90%; */
     border-radius: 8px;
-
-
 }
 
 .pago_normal {
@@ -63,15 +61,22 @@ nav ul li a{
     color: blue;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .pago_otro {
     color: #3d3ef8;
 }
 
+.pago_otro_texto {
+    margin-bottom: 10px;
+}
+
 .stock {
     font-size: 13px;
 }
+
+
 
 .divisor_precio {
     border-top: 2px solid blue;    
@@ -122,6 +127,7 @@ h2 {
     margin-top: 40px;
     margin-bottom: 30px;
     font-size: 50px;
+    color: blue;
 }
 
 
@@ -156,10 +162,7 @@ textarea  {
 
 .boton {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-   
-    
-    
+    font-size: 20px;    
 }
 /*fin formulario*/
 
@@ -189,17 +192,21 @@ footer {
     flex-direction: row;
     }
 
+    nav ul li a{        
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
     img {
         width: 300px;
     }
 
     .separador {        
         width: 80%;        
-    }
-
-    nav ul li {
-        margin-right: 50px;
-    }
+    }   
 
 }
 
