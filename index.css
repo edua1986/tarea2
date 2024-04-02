@@ -32,6 +32,11 @@ nav ul li a{
     font-size: 25px;
 }
 
+a:hover {
+    box-shadow: 1px 1px 1px 1px blue;
+    color: #111;
+}
+
 /* fin nav */
 
 
@@ -60,7 +65,8 @@ nav ul li a{
 
 .producto_detalle:hover {
     transform: scale(1.1);
-    background-color: #f4f4f4;    
+    background-color: #f4f4f4; 
+       
 } 
 
 .pago_normal {
@@ -82,8 +88,6 @@ nav ul li a{
 .stock {
     font-size: 13px;
 }
-
-
 
 .divisor_precio {
     border-top: 2px solid blue;    
