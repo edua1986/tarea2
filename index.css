@@ -40,6 +40,33 @@ a:hover {
 /* fin nav */
 
 
+/* filtro */
+
+.contenedor_filtro {
+    display: flex;    
+}
+
+.filtro_principal {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.opcion_filtro {
+    margin-left: 10px;
+
+}
+
+/* .paginar {
+    margin-left: 100px;
+}
+.numero_pagina {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* fin filtro */
+
 /* productos */
 
 .productos {    
